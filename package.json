@@ -1,0 +1,25 @@
+{
+  "name": "react-linkhandler",
+  "version": "1.0.0",
+  "description": "A linkhandler for global React links",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardLitt/react-linkhandler.git"
+  },
+  "keywords": [
+    "link",
+    "linkhandler",
+    "handler",
+    "react"
+  ],
+  "author": "Richard Littauer <richard.littauer@gmail.com> (http://burntfen.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RichardLitt/react-linkhandler/issues"
+  },
+  "homepage": "https://github.com/RichardLitt/react-linkhandler#readme"
+}
