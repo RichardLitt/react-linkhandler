@@ -1,6 +1,6 @@
 {
   "name": "react-linkhandler",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A linkhandler for global React links",
   "main": "index.js",
   "scripts": {
