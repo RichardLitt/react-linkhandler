@@ -2,6 +2,8 @@
 
 > A standard link handler for React frameworks
 
+[![NPM](https://nodei.co/npm/react-linkhandler.png)](https://nodei.co/npm/react-linkhandler/)
+
 ## Install
 
 ```sh
