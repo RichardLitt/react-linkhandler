@@ -1,28 +1,21 @@
-var Router = require('react-router')
-var $ = require('jquery')
-module.exports = linkHandler
+import Router from 'react-router'
 
-function linkHandler () {
-
+export default function linkHandler () {
   var external = /^(https?:)?\/\//i
   var staticLink = /^\/static\//i
 
-  $(document.body).on('click', 'a', function (event) {
-
-    var href = $(this).attr('href')
+  document.body.getElementByTagName('a').onclick = function (event) {
+    var href = this.getAttribute('href')
+    console.log(href)
 
     // pass through if external or static
-    if (external.test(href) || staticLink.test(href)) {
-      return
-    }
+    if (external.test(href) || staticLink.test(href)) return
 
     // bail if already defaultPrevented
-    if (event.defaultPrevented) {
-      return
-    }
+    if (event.defaultPrevented) return
 
     Router.transitionTo(href)
     event.preventDefault()
     return false
-  })
+  }
 }
