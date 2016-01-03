@@ -28,8 +28,9 @@
   "homepage": "https://github.com/RichardLitt/react-linkhandler#readme",
   "dependencies": {
     "react-router": "^1.0.3",
+    "miller-rabin": "1.1.1",
     "history": "^1.17.0",
-    "bn.js": "^4.6.1"
+    "bn.js": "^0.15.0"
   },
   "devDependencies": {
     "babel": "^6.3.26",
