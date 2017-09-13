@@ -1,5 +1,7 @@
 # React Linkhandler
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/RichardLitt/react-linkhandler.svg)](https://greenkeeper.io/)
+
 > A standard link handler for React frameworks
 
 [![NPM](https://nodei.co/npm/react-linkhandler.png)](https://nodei.co/npm/react-linkhandler/)
